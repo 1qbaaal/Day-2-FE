@@ -1,0 +1,61 @@
+/* Mobile */
+/* 0px - 480px */
+
+.pwd{
+  color: red;
+}
+
+/* Tablet */
+/* 481px - 768px */
+@media screen and (min-width: 481px){
+  .pwd{
+    color: blue;
+  }
+}
+
+
+/* Latpop dst */
+/* 769px - dst */
+@media screen and (min-width: 769px){
+  .pwd{
+    color: black;
+  }
+}
+/* untuk nilai min width jika dibawah 481px maka akan mengambil warna default, dan selanjutnya sama dia akan mengambil warna sesuai tempat px dia berada */
+
+/* Latpop dst */
+/* 769px - dst */
+.pwd{
+  color: red;
+}
+
+/* Mobile */
+/* 0px - 480px */
+@media screen and (max-width: 480px){
+  .pwd{
+    color: blue;
+  }
+}
+
+
+/* Tablet */
+/* 0px - 769px */
+@media screen and (max-width: 769px){
+  .pwd{
+    color: black;
+  }
+}
+/* untuk nilai max width, tempat warna default adalah jika warna px sudah diatas nilai px yang paling besar. dan apabila menggunakan max width, nilai px nya sama sama mulai dari 0, dan warna yang akan keluar sesuai dengan terlebih mana mereka di declare terlebih dahulu */
+
+
+.pwd{
+  color: red;
+
+  @media screen and (min-width: 481px){
+    color: blue; 
+  } 
+  @media screen and (min-width: 769px){
+    color: black;
+  }
+}
+

@@ -1,0 +1,16 @@
+.wrapper01 {
+  background-color: pink;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+ 
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

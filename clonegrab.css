@@ -1,0 +1,56 @@
+.body{
+  margin: 0px;
+  padding: 0px;
+}
+
+.navbar{
+  display: flex;
+  background-color: white;
+  height: 50px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 100px 0px 100px;
+  z-index: 1;
+}
+
+.right-menu{
+  display: flex;
+  gap: 10px;
+}
+
+.background{
+  background-image: url('https://images.tokopedia.net/img/KRMmCm/2023/11/9/ef079998-a8b8-4041-9c27-4730007415ae.png');
+  height: 300px;
+  padding: 100px 100px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.background div{
+  position: absolute;
+  color: white;
+  bottom: 0px;
+
+}
+
+.garis{
+  margin-top: 50px;
+}
+
+.line02{
+  padding: 0px 100px 0px 100px;
+}
+
+.gambar{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 50px 100px;
+}
+
+.gambar img{
+  width: 300px;
+  height: auto;
+  border-radius: 5px;
+}

@@ -1,0 +1,21 @@
+.Screen {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr;
+}
+
+.Screen div{
+  border: 3px solid black;
+}
+
+@media screen and (min-width: 400px){
+  .Screen{
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .Screen{
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

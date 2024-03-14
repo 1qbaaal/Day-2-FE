@@ -1,0 +1,58 @@
+/* .rentalPS {
+  display: grid;
+  height: 500px;
+  /* margin-top: 200px; */
+  /* display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 1fr 1fr;
+} */
+
+/* .tv04 {
+  grid-column: 4/6;
+  border: 3px solid black;
+} */
+
+/* .tv05 {
+  grid-column: 1/3;
+  border: 3px solid black;
+  
+} */
+
+/* .rentalPS div:nth-child(odd) {
+  background-color: pink;
+} */
+
+/* .rentalPS div:nth-child(even) {
+  background-color: aqua
+} */
+
+.warnetmaman {
+  display: grid;
+  height: 500px;
+  margin-top: 200px;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 1fr 1fr;
+  text-align: center;
+}
+
+.kom01 {
+  grid-row: 1/3;
+  border: 3px solid black;
+}
+
+.kom04 {
+  grid-column: 4/6;
+  border: 3px solid black;
+  
+}
+
+.warnetmaman div:nth-child(odd) {
+  background-color: burlywood;
+}
+
+.warnetmaman div:nth-child(even) {
+  background-color: palevioletred
+}
